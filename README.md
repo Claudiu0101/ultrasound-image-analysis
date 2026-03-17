@@ -92,11 +92,10 @@ This confirms the working hypothesis and enables **objective evaluation of ultra
 ## Note on Data & Code
 
 Due to medical data confidentiality, raw datasets and full implementation are not publicly available.  
-This repository focuses on **methodology, data processing, and analytical approach**.
+This repository focuses on **methodology, data processing and analytical approach**.
 
 ---
 
 ## Why This Project Matters
 
-- Reduces subjectivity in medical imaging  
 - Enables **data-driven diagnosis support**  
