@@ -100,11 +100,3 @@ This repository focuses on **methodology, data processing, and analytical approa
 
 - Reduces subjectivity in medical imaging  
 - Enables **data-driven diagnosis support**  
-
----
-
-## Future Work
-
-- Extend analysis to additional organs or imaging modalities  
-- Integrate pipeline with automated diagnostic tools  
-- Validate findings on larger patient cohorts
