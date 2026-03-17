@@ -29,6 +29,13 @@ Clear decreasing trend of signal intensity as depth increases.
 
 ---
 
+## Project Structure
+
+- `docs/fatty_liver_dissertation_presentation.pdf` – Dissertation presentation slides  
+- `/images` – Visual examples of processing and results  
+
+---
+
 ## Project Implementation
 
 - Designed a **custom deformable grid (mesh)** adapted to ultrasound geometry  
@@ -62,30 +69,12 @@ This confirms the working hypothesis and enables **objective evaluation of ultra
 
 ---
 
-## Tools & Technologies
-
-- **Python**  
-- **NumPy / Pandas**  
-- **Jupyter Notebook**  
-- **ITK-SNAP**  
-- **OpenCV**  
-- **Excel**
-
----
-
 ## My Contribution
 
 - Designed and implemented the **grid-based analysis system**  
 - Built the **full data processing pipeline**  
 - Performed **statistical analysis and interpretation**  
 - Transformed **unstructured image data into structured datasets**
-
----
-
-## Repository Contents
-
-- `fatty_liver_dissertation_presentation.pdf` – Dissertation presentation slides  
-- `/images` – Visual examples of processing and results  
 
 ---
 
@@ -98,4 +87,15 @@ This repository focuses on **methodology, data processing and analytical approac
 
 ## Why This Project Matters
 
-- Enables **data-driven diagnosis support**  
+- Enables **data-driven diagnosis support**
+
+---
+
+## Tools & Technologies
+
+- **Python**  
+- **NumPy / Pandas**  
+- **Jupyter Notebook**  
+- **ITK-SNAP**  
+- **OpenCV**  
+- **Excel**
