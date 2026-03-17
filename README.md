@@ -13,7 +13,7 @@ Medical ultrasound interpretation is often subjective. This project addresses th
 
 ---
 
-## Visual Results
+## Results Visualization
 
 ### Ultrasound with Grid Overlay
 Custom deformable grid adapted to ultrasound geometry, enabling region-based analysis.  
@@ -36,7 +36,7 @@ Clear decreasing trend of signal intensity as depth increases.
 
 ---
 
-## Project Implementation
+## Implementation Details
 
 - Designed a **custom deformable grid (mesh)** adapted to ultrasound geometry  
 - Converted medical images (**DICOM → NIFTI**)  
@@ -48,7 +48,7 @@ Clear decreasing trend of signal intensity as depth increases.
 
 ---
 
-## Data & Scale
+## Data Description
 
 - 200 ultrasound images  
 - 80 patients  
@@ -58,7 +58,7 @@ Clear decreasing trend of signal intensity as depth increases.
 
 ---
 
-## Key Result
+## Main Results
 
 A clear and consistent trend was identified:
 
@@ -69,7 +69,7 @@ This confirms the working hypothesis and enables **objective evaluation of ultra
 
 ---
 
-## My Contribution
+## Contribution
 
 - Designed and implemented the **grid-based analysis system**  
 - Built the **full data processing pipeline**  
@@ -78,14 +78,14 @@ This confirms the working hypothesis and enables **objective evaluation of ultra
 
 ---
 
-## Note on Data & Code
+## Data and Code Availability
 
 Due to medical data confidentiality, raw datasets and full implementation are not publicly available.  
 This repository focuses on **methodology, data processing and analytical approach**.
 
 ---
 
-## Why This Project Matters
+## Study Impact
 
 - Enables **data-driven diagnosis support**
 
