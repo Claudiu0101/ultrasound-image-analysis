@@ -1,6 +1,6 @@
 # Fatty Liver Ultrasound Analysis (Dissertation Project)
 
-This project presents an **end-to-end data analysis pipeline** for extracting quantitative insights from ultrasound images, with the goal of supporting **early detection of fatty liver disease**.
+This project presents an **end-to-end data analysis pipeline** for extracting quantitative insights from ultrasound images, supporting **early detection of fatty liver disease**.
 
 ---
 
@@ -9,27 +9,23 @@ This project presents an **end-to-end data analysis pipeline** for extracting qu
 Medical ultrasound interpretation is often subjective.  
 This project addresses that by transforming **raw ultrasound images into structured data** and analyzing signal behavior objectively.
 
-### Key idea:
-> Ultrasound signal intensity decreases with depth — this was **quantified and validated using data analysis techniques**.
+### Key Idea
+**Ultrasound signal intensity decreases with depth — quantified and validated using data analysis techniques.**
 
 ---
 
 ## Visual Results
 
 ### Ultrasound with Grid Overlay
-Custom deformable grid adapted to ultrasound geometry, enabling region-based analysis.
+Custom deformable grid adapted to ultrasound geometry, enabling region-based analysis.  
 ![Grid](images/05_deformed_grid_overlay.png)
 
----
-
 ### Segmentation Example
-Annotated regions highlighting liver and kidney areas used for analysis.
+Annotated regions highlighting liver and kidney areas used for analysis.  
 ![Segmentation](images/02_ultrasound_segmentation_overlay.png)
 
----
-
 ### Intensity vs Depth Analysis
-Clear decreasing trend of signal intensity as depth increases.
+Clear decreasing trend of signal intensity as depth increases.  
 ![Intensity](images/08_mean_intensity_depth_vertical_gradient.png)
 
 ---
@@ -60,29 +56,30 @@ Clear decreasing trend of signal intensity as depth increases.
 
 A clear and consistent trend was identified:
 
-➡️ **Signal intensity decreases progressively with depth**  
-➡️ Valid across both liver and kidney regions  
+- **Signal intensity decreases progressively with depth**  
+- Valid across both liver and kidney regions  
 
-This confirms the working hypothesis and enables **objective evaluation of ultrasound data**.
+This confirms the working hypothesis and enables **objective evaluation of ultrasound data**.  
+*This trend can inform future automated ultrasound analysis tools.*
 
 ---
 
 ## Tools & Technologies
 
-- **Python**
-- **NumPy / Pandas**
-- **Jupyter Notebook**
-- **ITK-SNAP**
-- **OpenCV (image processing)**
+- **Python**  
+- **NumPy / Pandas**  
+- **Jupyter Notebook**  
+- **ITK-SNAP**  
+- **OpenCV (image processing)**  
 - **Excel (data aggregation & analysis)**
 
 ---
 
 ## My Contribution
 
-- Designed and implemented the **grid-based analysis system**
-- Built the **full data processing pipeline**
-- Performed **statistical analysis and interpretation**
+- Designed and implemented the **grid-based analysis system**  
+- Built the **full data processing pipeline**  
+- Performed **statistical analysis and interpretation**  
 - Transformed **unstructured image data into structured datasets**
 
 ---
@@ -105,4 +102,11 @@ This repository focuses on **methodology, data processing, and analytical approa
 
 - Reduces subjectivity in medical imaging  
 - Enables **data-driven diagnosis support**  
+
 ---
+
+## Future Work
+
+- Extend analysis to additional organs or imaging modalities  
+- Integrate pipeline with automated diagnostic tools  
+- Validate findings on larger patient cohorts
