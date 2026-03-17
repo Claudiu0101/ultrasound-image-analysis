@@ -6,8 +6,7 @@ This project presents an **end-to-end data analysis pipeline** for extracting qu
 
 ## Project Overview
 
-Medical ultrasound interpretation is often subjective.  
-This project addresses that by transforming **raw ultrasound images into structured data** and analyzing signal behavior objectively.
+Medical ultrasound interpretation is often subjective. This project addresses that by transforming **raw ultrasound images into structured data** and analyzing signal behavior objectively.
 
 ### Key Idea
 **Ultrasound signal intensity decreases with depth — quantified and validated using data analysis techniques.**
@@ -60,7 +59,6 @@ A clear and consistent trend was identified:
 - Valid across both liver and kidney regions  
 
 This confirms the working hypothesis and enables **objective evaluation of ultrasound data**.  
-*This trend can inform future automated ultrasound analysis tools.*
 
 ---
 
@@ -70,8 +68,8 @@ This confirms the working hypothesis and enables **objective evaluation of ultra
 - **NumPy / Pandas**  
 - **Jupyter Notebook**  
 - **ITK-SNAP**  
-- **OpenCV (image processing)**  
-- **Excel (data aggregation & analysis)**
+- **OpenCV**  
+- **Excel**
 
 ---
 
