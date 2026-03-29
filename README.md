@@ -1,10 +1,10 @@
-# Fatty Liver Ultrasound Analysis (Dissertation Project)
+# Fatty Liver Ultrasound Analysis 
 
-This project presents an **end-to-end data analysis pipeline** for extracting quantitative insights from ultrasound images, supporting **early detection of fatty liver disease**.
+This repository presents an **end-to-end data analysis pipeline** for extracting quantitative insights from ultrasound images, supporting **early detection of fatty liver disease**.
 
 ---
 
-## Project Overview
+## Overview
 
 Medical ultrasound interpretation is often subjective. This project addresses that by transforming **raw ultrasound images into structured data** and analyzing signal behavior objectively.
 
@@ -32,7 +32,7 @@ Clear decreasing trend of signal intensity as depth increases.
 ## Project Structure
 
 - `docs/fatty_liver_dissertation_presentation.pdf` – Dissertation presentation slides  
-- `/images` – Visual examples of processing and results  
+- `images/` – Visual examples of processing and results  
 
 ---
 
@@ -54,7 +54,7 @@ Clear decreasing trend of signal intensity as depth increases.
 - 80 patients  
 - ~80,000 data records (cell-level statistics)  
 - ~110,000 comparisons (gradient analysis)  
-- Final aggregated dataset (~3,000 rows)
+- final aggregated dataset (~3,000 rows)
 
 ---
 
@@ -93,9 +93,9 @@ This repository focuses on **methodology, data processing and analytical approac
 
 ## Tools & Technologies
 
-- **Python**  
-- **NumPy / Pandas**  
-- **Jupyter Notebook**  
-- **ITK-SNAP**  
-- **OpenCV**  
-- **Excel**
+- Python  
+- NumPy / Pandas / OpenCV 
+- Jupyter Notebook
+- Visual Studio Code
+- ITK-SNAP    
+- Microsoft Excel
